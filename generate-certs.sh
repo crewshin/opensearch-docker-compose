@@ -1,7 +1,7 @@
 #!/bin/bash
 # Generate certificates for your OpenSearch cluster
 
-OPENDISTRO_DN="/C=FR/ST=IDF/L=PARIS/O=EXAMPLE"   # Edit here and in opensearch.yml
+OPENDISTRO_DN="/C=US/ST=IL/L=CHICAGO/O=genecrucean.com"   # Edit here and in opensearch.yml
 
 mkdir -p certs/{ca,os-dashboards}
 
